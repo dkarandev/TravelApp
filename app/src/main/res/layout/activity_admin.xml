@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtpcakge"
+                android:layout_width="match_parent"
+                android:background="@drawable/password_bg"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:hint="Package:-" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:background="@drawable/password_bg"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:hint="Name:-" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtprice"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:background="@drawable/password_bg"
+                android:layout_height="wrap_content"
+                android:hint="Price:-" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtdays"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:inputType="number"
+                android:background="@drawable/password_bg"
+                android:layout_height="wrap_content"
+                android:hint="Day's:-" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtmobile"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:maxLength="10"
+            android:background="@drawable/password_bg"
+            android:layout_height="wrap_content"
+            android:hint="Mobile:-" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtnote"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:background="@drawable/password_bg"
+                android:layout_height="wrap_content"
+                android:hint="Note:-" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtgalary"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Galary"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/txtuplod"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Uplod"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgimgView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"/>
+
+        <Button
+            android:id="@+id/btndisplay"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="display"
+            android:layout_marginHorizontal="@dimen/_20sdp"/>
+
+
+
+</LinearLayout>

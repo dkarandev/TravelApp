@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:elevation="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtpackge"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_weight="1"
+        android:text=""/>
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_weight="1"
+        android:text=""/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/txtprice"
+        android:gravity="center"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_weight="1"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txtdays"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_weight="1"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/txtnote"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_weight="1"
+        android:text=""/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagimage"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
